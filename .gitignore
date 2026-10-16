@@ -1,3 +1,4 @@
+# Laravel & PHP
 *.log
 .DS_Store
 .env
@@ -22,3 +23,23 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# Frontend (Next.js)
+/frontend/node_modules
+/frontend/.next
+/frontend/out
+/frontend/build
+/frontend/.env*
+!/frontend/.env.example
+/frontend/next-env.d.ts
+/frontend/coverage
+
+# AI Agents, instructions & security review files (internal / not for git)
+/.agents/
+/instruction.md
+/ANTIGRAVITY_SECURITY_REVIEW.md
+/docs/ai_agent_instructions.md
+*.prompt.md
+*PROMPT*.md
+.claude/
+CLAUDE.md
